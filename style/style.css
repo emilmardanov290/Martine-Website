@@ -16,4 +16,8 @@
     .swiper-button-next {
         display: none !important;
     }
+    .custom-swiper-button-prev,
+    .custom-swiper-button-next {
+        display: none !important;
+    }
 }
