@@ -1,0 +1,19 @@
+/*Source: https://preview.colorlib.com/?_gl=1*1hdg191*_ga*MzEzNTc0NDg3LjE3NDY0NjU3MDM.*_ga_SEKJ4E9T4H*czE3NTg2MDQ5NzIkbzE3JGcxJHQxNzU4NjA1Mzc4JGoxOCRsMCRoMA..#martine */
+/*npx tailwindcss -i ./src/input.css -o ./output.css --watch*/
+/*https://ui.shadcn.com/docs/components/carousel*/
+#header-content{
+    width:100%;
+    height: 80vh;
+    background: url('../materials/banner_bg.png') no-repeat center/cover;
+}
+#upcoming-event{background: url('../materials/event_bg.png') no-repeat center/cover;}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: ''; 
+}
+@media (max-width: 767px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none !important;
+    }
+}
